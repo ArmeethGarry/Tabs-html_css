@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+    background-color: rgb(166, 184, 184);
+}
+
+.label {
+    text-align: center;
+    padding: 10px;
+}
